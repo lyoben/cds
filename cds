@@ -8,7 +8,7 @@ from pathlib import Path
 
 home_dir = str(Path.home())
 main_case_dir = f'{home_dir}/Downloads/cases'
-remote_host = 'quantum.es.f5net.com'
+remote_host = 'hostname.example.com'
 remote_host_port = 22
 username = 'blow'
 key_filename = f'{home_dir}/.ssh/id_rsa'
@@ -20,7 +20,7 @@ def sr_input():
 		print("Invalid SR number")
 		sys.exit(0)
 	else:
-		incoming_folder = f'/olympus/shares/cds/global/{sr}/INCOMING'
+		incoming_folder = f'/example/shares/cds/global/{sr}/INCOMING'
 		case_folder = f'{main_case_dir}/{sr}'
 		return incoming_folder,case_folder
 
