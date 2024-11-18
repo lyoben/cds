@@ -17,15 +17,15 @@ blow@blow-Ubuntu:~/cds_demo$ cds
 Enter case number: 00699712   <------------------------------------------------------- (1)
 /home/blow/cds_demo/case_dir/00699712 case folder created.   <------------------------ (2)
 
-Connecting to quantum.es.f5net.com....
+Connecting to host.example.com....
 
 <<<>>>=======[Connected]=======<<<>>>   <--------------------------------------------- (3)
 
-/olympus/shares/cds/global/00699712/INCOMING/   <------------------------------------- (4)
+/exaple/shares/cds/global/12345678/INCOMING/   <------------------------------------- (4)
 oct_04  oct_06  oct_08  oct_09
 date: oct08   <----------------------------------------------------------------------- (5)
-capture_00699712_2.pcap                           22.36 MB / 22.36 MB (100.00%)   <--- (6)
-capture_00699712_3.pcap                           28.88 MB / 28.88 MB (100.00%)
+capture_12345678_2.pcap                           22.36 MB / 22.36 MB (100.00%)   <--- (6)
+capture_12345678_3.pcap                           28.88 MB / 28.88 MB (100.00%)
 grep 'TLS1-3-decrypt' varlogltm.txt               0.01 MB / 0.01 MB (100.00%)
 SSO_Issue_Oct-8_v2_notworking 2.har               0.03 MB / 0.03 MB (100.00%)
 SSO_Issue_Oct-8_v2_working 2.har                  5.10 MB / 5.10 MB (100.00%)
@@ -53,7 +53,7 @@ blow@blow-Ubuntu:~/cds_demo$ ./setup.py
 
 >>>>What is the directory where you keep all the case folders? /home/blow/cds_demo/case_dir   <-------------------------------- (1)
 
->>>>>Your Quantum's username: blow   <----------------------------------------------------------------------------------------- (2)
+>>>>>Your remote's username: blow   <----------------------------------------------------------------------------------------- (2)
 
 >>>>Changing file permission with 'chmod 755 cds'
 
@@ -104,17 +104,13 @@ Welcome to quantum.es.f5net.com
 *** AUTHORIZED USERS ONLY ***
 This system provides access to critical customer data.
 
-Use your OLYMPUS (Active Directory) credentials to log in.
+Use your EXAMPLE (Active Directory) credentials to log in.
 
 This system should be available to all engineers authorized to access customer
-data (CDS).  If you can't log in, and think you should be able to, please see:
-    https://f5.service-now.com/sp?id=sc_cat_item&sys_id=ca2585e34f53d380120597dd0210c77e
+data.  If you can't log in, and think you should be able to, please see:
+    XXX
 
-If you are an ENE or PE engineer, consider using sinkhole.es.f5net.com
-
-If you're still having issues, please contact ESNetOwners@f5.com.
-
-blow@quantum.es.f5net.com's password:  <-------------------------------------------------------------------------------------------- (6)
+blow@host.example.com's password:  <-------------------------------------------------------------------------------------------- (6)
 
 Number of key(s) added: 1
 
