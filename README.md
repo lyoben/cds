@@ -1,6 +1,6 @@
 ### Description
 
-***cds*** script opens ssh session to Quantum and use sftp get to download files uploaded by customer and organise downloaded file into case subdirectory.<br>
+***cds*** script opens ssh session to remote file server and use sftp get to download files uploaded by customer and organise downloaded file into case subdirectory.<br>
 <br>
 note: currently only supports Mac/Linux users due to Windows path is different
 
